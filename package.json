@@ -1,0 +1,29 @@
+{
+  "name": "bookingapp",
+  "version": "1.0.0",
+  "description": "Booking App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorit0/bookingApp.git"
+  },
+  "author": "Oscar Torrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorit0/bookingApp/issues"
+  },
+  "homepage": "https://github.com/Lorit0/bookingApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
